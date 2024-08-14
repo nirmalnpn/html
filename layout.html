@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="#"><img src="NN.png" width="50px" alt="Your Logo"></a>
+            </div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <ul class="navbar-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="navbar-search">
+                <input type="text" placeholder="Search products..." id="searchInput">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div class="navbar-auth">
+                <a href="login.html" class="login-btn">Login</a>
+                <a href="signup.html" class="signup-btn">Sign Up</a>
+            </div>            
+            <div class="navbar-cart">
+                <a href="#"><img src="cart.png" width="40" alt="Cart"></a>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="side">
+                <div class="sidebar">
+                    <ul>
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Home & Kitchen</a></li>
+                        <li><a href="#">Beauty</a></li>
+                        <li><a href="#">Sports</a></li>
+                    </ul>
+                </div>
+                <div class="slider">
+                    <div class="slider-container">
+                        <div class="slide active">
+                            <img src="category1.jpg" alt="Category 1">
+                        </div>
+                        <div class="slide">
+                            <img src="category2.jpg" alt="Category 2">
+                        </div>
+                        <div class="slide">
+                            <img src="category3.jpg" alt="Category 3">
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                    <div class="slider-controls">
+                        <span class="prev">&#10094;</span>
+                        <span class="next">&#10095;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="products-section">
+                <div class="products">
+                    <div class="product">
+                        <img src="product1.jpg" alt="Product 1">
+                        <h4>Product 1</h4>
+                        <p>$29.99</p>
+                        <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product2.jpg" alt="Product 2">
+                        <h4>Product 2</h4>
+                        <p>$39.99</p>
+                        <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product3.jpg" alt="Product 3">
+                        <h4>Product 3</h4>
+                        <p>$19.99</p>
+                        <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product1.jpg" alt="Product 1">
+                        <h4>Product 1</h4>
+                        <p>$29.99</p>
+                        <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product2.jpg" alt="Product 2">
+                        <h4>Product 2</h4>
+                        <p>$39.99</p>
+                        <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product3.jpg" alt="Product 3">
+                        <h4>Product 3</h4>
+                        <p>$19.99</p>
+                        <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product1.jpg" alt="Product 1">
+                        <h4>Product 1</h4>
+                        <p>$29.99</p>
+                        <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product2.jpg" alt="Product 2">
+                        <h4>Product 2</h4>
+                        <p>$39.99</p>
+                        <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product3.jpg" alt="Product 3">
+                        <h4>Product 3</h4>
+                        <p>$19.99</p>
+                        <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product1.jpg" alt="Product 1">
+                        <h4>Product 1</h4>
+                        <p>$29.99</p>
+                        <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product2.jpg" alt="Product 2">
+                        <h4>Product 2</h4>
+                        <p>$39.99</p>
+                        <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="product3.jpg" alt="Product 3">
+                        <h4>Product 3</h4>
+                        <p>$19.99</p>
+                        <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+                    </div>
+                    <!-- Add more products as needed -->
+                </div>
+            </div>
+        </div>
+                 <!-- footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>About Us</h3>
+                    <p>We are a leading eCommerce platform offering a wide range of products to cater to your needs. Our mission is to provide quality products at affordable prices.</p>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/nirmal.neupane.9279807" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/nrml_npn/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@nirmalneupane9443?si=emU0iQ4RCyMR86lL" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://x.com/nipuun05" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Gongabu,Ganeshthan,Kathmande,Nepal</li>
+                        <li><i class="fas fa-phone-alt"></i> +977 9823544723</li>
+                        <li><i class="fas fa-envelope"></i> nirmalneupane05@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; 2024 NN | All Rights Reserved
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
